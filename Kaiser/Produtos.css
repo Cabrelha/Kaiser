@@ -15,24 +15,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
-::-webkit-scrollbar {
-  width: 3px;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-  background: #fff;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #fff;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #f00;
-}
 
 
 #logo {
@@ -160,7 +143,7 @@ footer {
 }
 
 .center {
-  background-color: rgb(248, 199, 204);
+  background-color: rgb(1, 111, 249);
   align-items: center;
   justify-content: center;
   display: flex;
@@ -170,11 +153,7 @@ footer {
 }
 .sho {
   margin-right: 35px;
-  color: rgb(88, 44, 77);
-}
-.sho:hover {
-  cursor: pointer;
-  color: #ffffff;
+  color: #ffff;
 }
 
 #divBusca {
@@ -244,7 +223,7 @@ footer {
 
 .bar {
   width: 70px;
-  border: 2px solid #d84c72;
+  border: 2px solid rgb(1, 111, 249);
   margin: 6px;
   border-radius: 5px;
   cursor: pointer;
@@ -252,7 +231,7 @@ footer {
 }
 
 .bar:hover {
-  background-color: #d84c72;
+  background-color: rgb(0, 42, 95);
 }
 
 .slides input {
@@ -334,7 +313,7 @@ footer {
 }
 
 .header {
-  background-color: #d84c72;
+  background-color: rgb(1, 77, 173);
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
   font-weight: 800;
@@ -346,7 +325,7 @@ footer {
   border-radius: 10px;
 }
 .filter {
-  background-color: #d84c72;
+  background-color: rgb(1, 77, 173);
   color: white;
   width: 26px;
   height: 26px;
@@ -375,7 +354,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.2);
 }
 .produto p {
-  background-color: #d84c72;
+  background-color: rgb(1, 77, 173);
   color: whitesmoke;
   padding: 5px 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -401,6 +380,7 @@ footer {
 
 /* popup */
 
+
 #popupbackground {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100vw;
@@ -413,10 +393,10 @@ footer {
 }
 
 #popup {
-  width: 500px;
+  width: 350px;
   padding: 15px;
   border-radius: 15px;
-  background-color: #624f72;
+  background-color:  rgb(39, 138, 197);
 }
 
 #popup form {
@@ -428,16 +408,60 @@ footer {
 #popup form div {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-#popup form a {
-  text-align: end;
+.sla{
+  display: flex;
+}
+
+.sla a {
+  color: #f0f2f5;
+}
+.login{
+  justify-self: flex-end;
+  padding-left: 116.5px;
+  color: #f0f2f5;
+  padding-top: 50px;
+}
+
+.preencher{
+  height: 300px;
+  flex-direction: column;
+}
+.registro p{
+  padding-left: 80px;
+  font-size: 10pt;
+  padding-top: 5px;
+}
+
+.registro a{
+  padding-right: 90px;
+  font-size: 10pt;
+  padding-top: 5px;
+  
+  color: #2d2d2d;
+}
+
+.esquecer{
+  padding-bottom: 100px;
+  font-size: 15px;
+  color: #2d2d2d;
+}
+
+#addbottom2 a{
+  text-decoration: none;
+  color: #f0f2f5;
+  font-size: 30px;
+}
+
+.xx {
+  margin-left: 300px;
 }
 
 .x:hover {
   cursor: pointer;
-  color: white;
+  color:  rgb(1, 77, 173);
 }
 
 form input,
@@ -470,13 +494,13 @@ form label {
 }
 
 form button {
-  background-color: #ff9eea;
+  background-color:#f0f2f5;
   color: rgb(0, 0, 0);
   margin-top: 30px;
   transition: background linear 0.2;
 }
 form button:hover {
-  background-color: #73abff;
+  background-color:  rgb(1, 77, 173);
   cursor: pointer;
   transition: 0.8s;
 }
@@ -523,17 +547,6 @@ tbody td svg {
   width: 15px;
   height: 15px;
   margin-right: 5px;
-}
-/* botão de pedido */
-
-#addbottom:hover {
-  filter: brightness(0.7);
-  cursor: pointer;
-}
-
-#addbottom2:hover {
-  filter: brightness(0.7);
-  cursor: pointer;
 }
 
 /* numeragem da página */

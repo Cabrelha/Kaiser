@@ -449,10 +449,10 @@
 }
 
 #popup {
-  width: 500px;
+  width: 350px;
   padding: 15px;
   border-radius: 15px;
-  background-color: #624f72;
+  background-color:  rgb(39, 138, 197);
 }
 
 #popup form {
@@ -464,16 +464,60 @@
 #popup form div {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-#popup form a {
-  text-align: end;
+.sla{
+  display: flex;
+}
+
+.sla a {
+  color: #f0f2f5;
+}
+.login{
+  justify-self: flex-end;
+  padding-left: 116.5px;
+  color: #f0f2f5;
+  padding-top: 50px;
+}
+
+.preencher{
+  height: 300px;
+  flex-direction: column;
+}
+.registro p{
+  padding-left: 80px;
+  font-size: 10pt;
+  padding-top: 5px;
+}
+
+.registro a{
+  padding-right: 90px;
+  font-size: 10pt;
+  padding-top: 5px;
+  
+  color: #2d2d2d;
+}
+
+.esquecer{
+  padding-bottom: 100px;
+  font-size: 15px;
+  color: #2d2d2d;
+}
+
+#addbottom2 a{
+  text-decoration: none;
+  color: #f0f2f5;
+  font-size: 30px;
+}
+
+.xx {
+  margin-left: 300px;
 }
 
 .x:hover {
   cursor: pointer;
-  color: white;
+  color:  rgb(1, 77, 173);
 }
 
 form input,
@@ -506,13 +550,13 @@ form label {
 }
 
 form button {
-  background-color: #ff9eea;
+  background-color:#f0f2f5;
   color: rgb(0, 0, 0);
   margin-top: 30px;
   transition: background linear 0.2;
 }
 form button:hover {
-  background-color: #73abff;
+  background-color:  rgb(1, 77, 173);
   cursor: pointer;
   transition: 0.8s;
 }
@@ -559,6 +603,25 @@ tbody td svg {
   width: 15px;
   height: 15px;
   margin-right: 5px;
+}
+
+
+
+.emails{
+  flex-direction: column;
+  padding: 50px 0px 0px 0px;
+}
+
+.emails p{
+  color: #f0f2f5;
+}
+
+.senha{
+  flex-direction: column;
+}
+
+.senha p{
+  color: #f0f2f5;
 }
 /* botão de pedido */
 
@@ -575,129 +638,3 @@ tbody td svg {
 
 
 
-
-/* popup 2*/
-
-#popupbackground2 {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100vw;
-  height: 100vh;
-  z-index: 10;
-  position: fixed;
-  align-items: center;
-  display: none;
-  justify-content: center;
-}
-
-#popup2 {
-  width: 500px;
-  padding: 15px;
-  border-radius: 15px;
-  background-color: #10c0c0;
-}
-
-#popup2 form {
-  display: flex;
-  align-items: initial;
-  flex-direction: column;
-}
-
-#popup2 form div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#popup2 form a {
-  text-align: end;
-}
-
-.x:hover {
-  cursor: pointer;
-  color: white;
-}
-
-form input,
-form select,
-form button,
-textarea {
-  padding: 10px;
-  border-radius: 5px;
-  margin: auto 5px;
-  margin-top: 5px;
-  flex: 1;
-  border: 1px solid transparent;
-  transition: border-color linear 0.2s;
-  resize: none;
-}
-
-textarea {
-  height: 300px;
-}
-form input:focus,
-form select:focus,
-textarea:focus {
-  border-color: black;
-}
-form label {
-  font-weight: 500;
-  color: #969cb2;
-  font-size: 14px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-form button {
-  background-color: #ff9eea;
-  color: rgb(0, 0, 0);
-  margin-top: 30px;
-  transition: background linear 0.2;
-}
-form button:hover {
-  background-color: #73abff;
-  cursor: pointer;
-  transition: 0.8s;
-}
-
-#header {
-  width: 100%;
-  height: 210px;
-  background-color: #ff9eea;
-}
-
-#header img {
-  margin-top: 50px;
-}
-
-table {
-  text-align: left;
-  padding: 10px;
-  border-spacing: 0;
-  border-collapse: collapse;
-}
-thead {
-  border-top: 16px solid transparent;
-  border-top: 8px solid transparent;
-}
-
-thead th {
-  color: #969cb2;
-  font-weight: 300;
-  padding-left: 10px;
-}
-
-tbody tr {
-  border-bottom: 8px solid transparent;
-  background-color: #fff;
-  background-clip: padding-box;
-}
-
-tbody tr td {
-  padding: 10px;
-  color: #363f5f;
-}
-
-tbody td svg {
-  width: 15px;
-  height: 15px;
-  margin-right: 5px;
-}
